@@ -1,4 +1,8 @@
 Site::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
   get "index/index"
 
   get "index/add"
